@@ -1,0 +1,27 @@
+.postInterractions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.interractionIcons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.interractionIcons img,
+.interractionIcons svg {
+  cursor: pointer;
+}
+
+.postInterractions button {
+  background-color: #e50829;
+  color: white;
+  border: none;
+  border-radius: 24px;
+  padding: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
